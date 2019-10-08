@@ -3,15 +3,16 @@ package com.company;
 public class Envelope {
 
     private float[] arr = new float[4];
-    float a;
-    float b;
-    float c;
-    float d;
-    public Envelope(float a, float b, float c, float d){
-        this.a = a;
-        this.b = b;
-        this.c = d;
-        this.c = d;
+    private float sideA;
+    private float sideB;
+    private float sideC;
+    private float sideD;
+
+    public Envelope(float sideA, float sideB, float sideC, float sideD){
+        this.sideA = sideA;
+        this.sideB = sideB;
+        this.sideC = sideC;
+        this.sideD = sideD;
     }
 
     public Envelope() {
